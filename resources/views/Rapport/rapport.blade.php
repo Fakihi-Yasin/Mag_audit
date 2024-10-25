@@ -183,7 +183,7 @@
     <div class="card">
         <h2 style="text-align: center;">Conditions de visites et profil du client mystère</h2>
         <ul>
-            <li><strong>Auditeur :</strong> : {{ $missionActulle->user->Nom }} {{ $missionActulle->user->Prenom }}</li>
+            <li><strong>Auditeur :</strong> {{ $missionActulle->user->Nom }} {{ $missionActulle->user->Prenom }}</li>
             <li><strong>Sexe :</strong> {{ $missionActulle->user->Sexe }}</li>
             <li><strong>Âge :</strong> {{ $missionActulle->user->Age }}</li>
             <li><strong>Profession :</strong> {{ $missionActulle->user->Profession }}</li>
