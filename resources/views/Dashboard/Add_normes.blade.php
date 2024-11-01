@@ -79,11 +79,11 @@
     </div>
 </div>
 
-<div class="text-end mb-10 mx-4">
+<!-- <div class="text-end mb-10 mx-4">
     <a href="{{ route('generate_pdf', ['hotel_id' => $hotel_id, 'legende_id' => $legende_id, 'ID_Mission' => $ID_Mission]) }}" class="focus:outline-none text-white bg-blue-800 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 m-2 dark:bg-green-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
         Télécharger le rapport
     </a>
-</div>
+</div> -->
 
 @php
     $url = route('page_rapport', ['legende_id' => $legende_id, 'hotel_id' => $hotel_id]) . '?ID_Mission=' . $ID_Mission;
